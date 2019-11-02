@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
     [DYFirstClass helloWrold];
+    [DYFirstClass time];
 }
 
 - (void)didReceiveMemoryWarning

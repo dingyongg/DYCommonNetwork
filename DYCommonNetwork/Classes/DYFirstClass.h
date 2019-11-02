@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DYFirstClass : NSObject
 
 + (void)helloWrold;
++ (NSString *)time;
 
 @end
 

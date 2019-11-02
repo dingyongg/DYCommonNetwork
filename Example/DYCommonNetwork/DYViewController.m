@@ -7,7 +7,7 @@
 //
 
 #import "DYViewController.h"
-#import <DYCommonNetwork/DYFirstClass.h>
+#import <DYCommonNetwork/YYTime.h>
 
 @interface DYViewController ()
 
@@ -18,15 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [DYFirstClass helloWrold];
-    NSString *timeStr = [DYFirstClass time];
-    NSLog(@"%@", timeStr);
+    [YYTime hw];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

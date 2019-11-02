@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "DYFirstClass.h"
+#import "YYTime.h"
 
 FOUNDATION_EXPORT double DYCommonNetworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char DYCommonNetworkVersionString[];

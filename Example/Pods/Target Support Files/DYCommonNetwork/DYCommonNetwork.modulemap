@@ -1,0 +1,6 @@
+framework module DYCommonNetwork {
+  umbrella header "DYCommonNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

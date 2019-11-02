@@ -7,6 +7,7 @@
 //
 
 #import "DYViewController.h"
+#import <DYCommonNetwork/DYFirstClass.h>
 
 @interface DYViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [DYFirstClass helloWrold];
 }
 
 - (void)didReceiveMemoryWarning

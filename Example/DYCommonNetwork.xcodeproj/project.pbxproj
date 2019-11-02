@@ -24,6 +24,8 @@
 		65C3F690EF6993BB5D28A385 /* Pods_DYCommonNetwork_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0BD1B2BFAE16144E7DFAD4 /* Pods_DYCommonNetwork_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EA32F2D6236A914500673714 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EA32F2D3236A914500673714 /* .gitkeep */; };
+		EA32F2D9236A917900673714 /* DYFirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EA32F2D8236A917900673714 /* DYFirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0A9254B34F84209AA0B7DEB0 /* Pods-DYCommonNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYCommonNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-DYCommonNetwork_Tests/Pods-DYCommonNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		262F27F8AA4E7968EACFD853 /* Pods-DYCommonNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYCommonNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DYCommonNetwork_Tests/Pods-DYCommonNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		59B292789E667161A03AF3F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		59B292789E667161A03AF3F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5C97F6D3C6E4E050EE672F88 /* Pods-DYCommonNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYCommonNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-DYCommonNetwork_Example/Pods-DYCommonNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DYCommonNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCommonNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +66,13 @@
 		722B4B0F5A155C66F1B46E74 /* Pods-DYCommonNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYCommonNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-DYCommonNetwork_Example/Pods-DYCommonNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB0BD1B2BFAE16144E7DFAD4 /* Pods_DYCommonNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYCommonNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC96E53A904F6DEB8F74AB3E /* DYCommonNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DYCommonNetwork.podspec; path = ../DYCommonNetwork.podspec; sourceTree = "<group>"; };
-		BDC41C0F47BA4FE1A2320E03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AC96E53A904F6DEB8F74AB3E /* DYCommonNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DYCommonNetwork.podspec; path = ../DYCommonNetwork.podspec; sourceTree = "<group>"; };
+		BDC41C0F47BA4FE1A2320E03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA32F2D0236A914500673714 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EA32F2D1236A914500673714 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EA32F2D3236A914500673714 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EA32F2D7236A917900673714 /* DYFirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYFirstClass.h; sourceTree = "<group>"; };
+		EA32F2D8236A917900673714 /* DYFirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYFirstClass.m; sourceTree = "<group>"; };
 		F4B658284BABF235C133AFE4 /* Pods_DYCommonNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYCommonNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,6 +105,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				EA32F2CE236A914500673714 /* DYCommonNetwork */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for DYCommonNetwork */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -193,8 +201,36 @@
 				262F27F8AA4E7968EACFD853 /* Pods-DYCommonNetwork_Tests.debug.xcconfig */,
 				0A9254B34F84209AA0B7DEB0 /* Pods-DYCommonNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA32F2CE236A914500673714 /* DYCommonNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				EA32F2CF236A914500673714 /* Classes */,
+				EA32F2D2236A914500673714 /* Assets */,
+			);
+			name = DYCommonNetwork;
+			path = ../DYCommonNetwork;
+			sourceTree = "<group>";
+		};
+		EA32F2CF236A914500673714 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA32F2D0236A914500673714 /* .gitkeep */,
+				EA32F2D1236A914500673714 /* ReplaceMe.m */,
+				EA32F2D7236A917900673714 /* DYFirstClass.h */,
+				EA32F2D8236A917900673714 /* DYFirstClass.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EA32F2D2236A914500673714 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EA32F2D3236A914500673714 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +285,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = dingyonggang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5GTNZC63D9;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +298,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +320,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				EA32F2D6236A914500673714 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -349,12 +390,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DYCommonNetwork_Example/Pods-DYCommonNetwork_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/DYCommonNetwork/DYCommonNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYCommonNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA32F2D9236A917900673714 /* DYFirstClass.m in Sources */,
 				6003F59E195388D20070C39A /* DYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -521,6 +565,7 @@
 			baseConfigurationReference = 5C97F6D3C6E4E050EE672F88 /* Pods-DYCommonNetwork_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GTNZC63D9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DYCommonNetwork/DYCommonNetwork-Prefix.pch";
 				INFOPLIST_FILE = "DYCommonNetwork/DYCommonNetwork-Info.plist";
@@ -537,6 +582,7 @@
 			baseConfigurationReference = 722B4B0F5A155C66F1B46E74 /* Pods-DYCommonNetwork_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5GTNZC63D9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DYCommonNetwork/DYCommonNetwork-Prefix.pch";
 				INFOPLIST_FILE = "DYCommonNetwork/DYCommonNetwork-Info.plist";

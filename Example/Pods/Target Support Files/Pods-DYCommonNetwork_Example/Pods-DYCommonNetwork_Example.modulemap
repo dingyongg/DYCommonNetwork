@@ -1,0 +1,6 @@
+framework module Pods_DYCommonNetwork_Example {
+  umbrella header "Pods-DYCommonNetwork_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

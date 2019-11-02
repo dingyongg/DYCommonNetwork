@@ -19,7 +19,8 @@
 {
     [super viewDidLoad];
     [DYFirstClass helloWrold];
-    [DYFirstClass time];
+    NSString *timeStr = [DYFirstClass time];
+    NSLog(@"%@", timeStr);
 }
 
 - (void)didReceiveMemoryWarning

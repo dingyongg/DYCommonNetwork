@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - DYCommonNetwork (0.1.0):
+  - DYCommonNetwork (0.1.1):
     - AFNetworking (~> 2.3)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
@@ -43,7 +43,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  DYCommonNetwork: 98209f06d3d655d07545a1d70e70bb52d8647793
+  DYCommonNetwork: b2fdf5911ac6f6599923f1e2f334c0ac273186c6
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: 0fffb5ba348aaf38680c943710fc68e60bc585fd
